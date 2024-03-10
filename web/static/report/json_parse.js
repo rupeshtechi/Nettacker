@@ -1,7 +1,7 @@
 <script>
     length = document.getElementById("json_length").innerText;
     document.getElementById("json_length").innerText = "";
-    renderjson.set_icons('▶','▼')
+    renderjson.set_icons('','')
     renderjson.set_collapse_msg(function (asd) {return "...";});
     arr = [];
     for (let i=1; i<=length; i++) {
